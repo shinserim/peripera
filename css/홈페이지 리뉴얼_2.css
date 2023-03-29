@@ -96,7 +96,8 @@ body {
     color: #333;
     line-height: 1;
     background-color: #fff7f6;
-    font-family: 'Noto Sans KR'
+    font-family: 'Noto Sans KR';
+    min-width: 1920px;
 }
 
 a {
@@ -177,32 +178,28 @@ header {
     object-fit: cover;
 }
 .paging img {
-    width: 13px;
-    height: 20px;
+    width: 11px;
+    height: 18px;
    
-}
-.paging img:nth-child(1) {
-    margin-right: 20px;
-}
-.paging img:last-child {
-    margin-left: 20px;
 }
 
 .main_visual ul {
     position: absolute;
-    bottom: 26px;
+    bottom: 15px;
     left: 50%;
+    transform: translateX(-50%);
 }
 
 .main_visual ul li {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     background-color: #ffffff;
     border-radius: 50%;
     display: inline-block;
     margin: 0 12px;
     vertical-align: middle;
     /* 가운데 세로정렬(인라인 요소 있을때) */
+    
 }
 
 .main_visual ul li:nth-child(1),
@@ -211,10 +208,11 @@ header {
     height: auto;
     background-color: transparent;
     /* 투명한색 */
+    
 }
 
 .main_visual ul li:nth-child(2) {
-    border: #333 4px solid;
+    border: #333 3px solid;
     box-sizing: unset;
 
 }
