@@ -245,7 +245,7 @@ header {
 
 .cont01 .list .item div h2 {
     margin-top: 84px;
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'GowunBatang-Regular';
     font-weight: 500;
     line-height: 1.5;
@@ -254,7 +254,7 @@ header {
 
 .cont01 .list .item h2::before {
     content: '';
-    width: 157px;
+    width: 177px;
     height: 1px;
     position: absolute;
     display: block;
